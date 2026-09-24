@@ -38,7 +38,7 @@ export default function EstatesPage() {
     <main className="bg-[#FCFBF8] min-h-screen">
       <nav className="bg-white border-b border-black/5 h-[72px] flex items-center">
         <div className="max-w-7xl mx-auto w-full px-6 flex justify-between items-center">
-          <Link href="/"><img src="/rapidflow-logo.png?v=2" alt="RapidFlow" className="h-9 w-auto" /></Link>
+          <Link href="/"><img src="/rapidfundi-logo.png?v=2" alt="rapidfundi" className="h-9 w-auto" /></Link>
           <Link href="/" className="text-sm font-bold">← Back Home</Link>
         </div>
       </nav>
@@ -49,7 +49,7 @@ export default function EstatesPage() {
           <div className="text-[#FFC83D] text-[11px] font-black tracking-[0.2em] mb-3">LOCAL & TRUSTED</div>
           <h1 className="text-[36px] md:text-[48px] font-black leading-[0.9]">Areas We Serve</h1>
           <p className="mt-4 text-[16px] leading-7 text-[#CBD5E1] max-w-[640px]">
-            RapidFlow provides residential and commercial plumbing services in Nairobi and surrounding communities including Buruburu, Kilimani, Lavington, Westlands, Langata, South C, Kasarani, Runda, Karen, Kitengela. Every job is quoted upfront and performed by NITA-verified plumbers, available 24/7 with photo proof.
+            rapidfundi provides residential and commercial plumbing services in Nairobi and surrounding communities including Buruburu, Kilimani, Lavington, Westlands, Langata, South C, Kasarani, Runda, Karen, Kitengela. Every job is quoted upfront and performed by NITA-verified plumbers, available 24/7 with photo proof.
           </p>
         </div>
         <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-[#FFC83D]"></div>
@@ -58,7 +58,7 @@ export default function EstatesPage() {
       {/* INTRO TEXT like Hugo */}
       <section className="max-w-4xl mx-auto px-6 py-12">
         <p className="text-[15px] leading-7 text-[#475569]">
-          RapidFlow proudly serves Nairobi — <span className="font-bold">89 Nairobi estates</span> — and surrounding communities of Kitengela, Athi River, Ruiru, Juja, Ongata Rongai. One of the key reasons residents choose us is our extensive local knowledge — we know Nairobi homes and the plumbing challenges that come with boreholes, city council water, and apartment blocks.
+          rapidfundi proudly serves Nairobi — <span className="font-bold">89 Nairobi estates</span> — and surrounding communities of Kitengela, Athi River, Ruiru, Juja, Ongata Rongai. One of the key reasons residents choose us is our extensive local knowledge — we know Nairobi homes and the plumbing challenges that come with boreholes, city council water, and apartment blocks.
         </p>
         <p className="mt-4 text-[15px] leading-7 text-[#475569]">
           From drain cleaning and emergency plumbing to water heater installation, leak detection, and sewer line repairs, our fully licensed and NITA-verified team uses everything from hydro jetting to high-tech camera inspection to get the job done right.

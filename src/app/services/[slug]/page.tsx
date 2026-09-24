@@ -2,7 +2,7 @@ const data: any = {
   "emergency-plumbing": {
     title: "Emergency Plumbing in Nairobi",
     subtitle: "Burst pipe, major leak, or sewage backup? We respond in 30 mins.",
-    desc: "RapidFlow emergency plumbers are NITA-verified and estate-based. We stop damage fast and show proof of work with geotagged photos.",
+    desc: "rapidfundi emergency plumbers are NITA-verified and estate-based. We stop damage fast and show proof of work with geotagged photos.",
     includes: ["Burst pipe repair", "Major leak stoppage", "Sewage backup clearing", "Water shut-off valve replacement", "Geotagged before/after photo proof", "30-min estate response"],
     why: "Estate-based verified plumbers, not random fundis. You get photo proof, geotag, and M-Pesa receipt for every job.",
     price: "From KSh 2,500 call-out + job"
@@ -76,7 +76,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             ))}
           </ul>
           <div className="bg-[#F8FAFC] border border-black/5 rounded-[20px] p-6 mt-10">
-            <h4 className="font-black text-[15px]">Why RapidFlow?</h4>
+            <h4 className="font-black text-[15px]">Why rapidfundi?</h4>
             <p className="text-[14px] text-[#64748B] mt-2 leading-relaxed">{s.why}</p>
           </div>
         </div>

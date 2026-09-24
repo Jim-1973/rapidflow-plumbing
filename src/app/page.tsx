@@ -9,10 +9,10 @@ export default function Home() {
           <Link href="/" className="flex items-center gap-3">
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 bg-white rounded-xl border border-black/5 shadow-sm flex items-center justify-center overflow-hidden p-1.5">
-                <img src="/rapidflow-logo.png?v=2" alt="RapidFlow" className="w-full h-full object-contain mix-blend-multiply" />
+                <img src="/rapidfundi-logo.png?v=2" alt="rapidfundi" className="w-full h-full object-contain mix-blend-multiply" />
               </div>
               <div className="leading-[0.9]">
-                <div className="font-black text-[19px] tracking-[-0.02em] text-[#0A1931]">RAPIDFLOW</div>
+                <div className="font-black text-[19px] tracking-[-0.02em] text-[#0A1931]">rapidfundi</div>
                 <div className="text-[10px] font-black tracking-[0.18em] text-[#0A66FF] mt-[2px]">PLUMBING • NAIROBI</div>
               </div>
             </div>
@@ -23,7 +23,7 @@ export default function Home() {
               <span>📞</span> (07) 1234-5678
             </a>
             <Link href="#download" className="bg-[#0F172A] text-white h-[44px] px-7 flex items-center gap-2 font-black text-[13px] tracking-wide hover:bg-black transition">
-              <span>📱</span> Get the RapidFlow App
+              <span>📱</span> Get the rapidfundi App
             </Link>
           </div>
 
@@ -55,7 +55,7 @@ export default function Home() {
             Your local<br />trusted partner<br />for plumbing care
           </h1>
           <p className="mt-6 text-[18px] leading-7 text-[#475569] max-w-[480px]">
-            RapidFlow has served Nairobi homeowners since 2024. Licensed, background-checked, and equipped to fix it right the first time with photo proof.
+            rapidfundi has served Nairobi homeowners since 2024. Licensed, background-checked, and equipped to fix it right the first time with photo proof.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link href="#download" className="bg-[#0F172A] text-white px-8 py-4 rounded-full font-bold text-[14px]">Schedule Now</Link>
@@ -208,7 +208,7 @@ export default function Home() {
           <div>
             <div className="text-[11px] font-black tracking-[0.2em] text-[#0A66FF]">OUR MISSION</div>
             <h2 className="mt-3 text-[32px] md:text-[42px] font-black leading-[0.95] text-[#0A1931]">We started because fundis were unreliable.</h2>
-            <p className="mt-6 text-[15px] leading-7 text-[#475569]">RapidFlow is 8 NITA-licensed plumbers based in Buruburu, not a call center. Every job has geotagged before/after photos so you know what you paid for.</p>
+            <p className="mt-6 text-[15px] leading-7 text-[#475569]">rapidfundi is 8 NITA-licensed plumbers based in Buruburu, not a call center. Every job has geotagged before/after photos so you know what you paid for.</p>
             <p className="mt-4 text-[15px] leading-7 text-[#475569]">No advance. You get quote in app before we start, you pay via M-Pesa after you approve photos.</p>
           </div>
           <div className="bg-[#F8FAFC] border border-black/5 rounded-[24px] p-3">
@@ -254,9 +254,9 @@ export default function Home() {
       <footer className="bg-[#0A1931] text-white py-14 px-6 border-t border-white/10">
         <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-10">
           <div>
-            <div className="flex items-center gap-3"><img src="/rapidflow-logo.png?v=2" className="w-8 h-8 rounded-lg bg-white p-1" alt="logo" /><span className="font-black">RAPIDFLOW</span></div>
+            <div className="flex items-center gap-3"><img src="/rapidfundi-logo.png?v=2" className="w-8 h-8 rounded-lg bg-white p-1" alt="logo" /><span className="font-black">rapidfundi</span></div>
             <p className="mt-3 text-[12px] text-white/50 max-w-[240px]">8 licensed plumbers in Buruburu. No advance. Photo proof before M-Pesa.</p>
-            <div className="mt-4 text-[11px] text-white/40">© 2026 RapidFlow Ltd.</div>
+            <div className="mt-4 text-[11px] text-white/40">© 2026 rapidfundi Ltd.</div>
           </div>
           <div><div className="text-[11px] font-black text-white/40 tracking-widest">SERVICES</div><div className="mt-3 flex flex-col gap-2 text-[13px] text-white/70"><a href="#services">Drain Unclogging</a><a href="#services">Leak Detection</a><a href="#services">Emergency 24/7</a></div></div>
           <div><div className="text-[11px] font-black text-white/40 tracking-widest">ESTATES</div><div className="mt-3 flex flex-col gap-2 text-[13px] text-white/70"><span>Buruburu</span><span>Kilimani</span><span>Lavington</span><span>Westlands</span></div></div>
