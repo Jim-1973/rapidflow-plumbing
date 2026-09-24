@@ -19,7 +19,7 @@ export default function Home() {
               </div>
               <div className="leading-[0.9]">
                 <div className="font-black text-[19px] tracking-[-0.02em] text-[#0A1931]">RapidFundi</div>
-                <div className="text-[10px] font-black tracking-[0.18em] text-[#0A66FF] mt-[2px]">PLUMBING • NAIROBI CBD</div>
+                <div className="text-[10px] font-black tracking-[0.18em] text-[#0A66FF] mt-[2px]">BY LANTEI • NAIROBI CBD</div>
               </div>
             </div>
           </Link>
@@ -41,20 +41,18 @@ export default function Home() {
         </div>
       </header>
 
-      {/* HERO */}
       <section className="max-w-7xl mx-auto px-6 py-12 md:py-20 grid md:grid-cols-2 gap-12 items-center">
         <div>
           <div className="inline-flex items-center gap-2 bg-white border border-black/5 shadow-sm px-3 py-1.5 rounded-full text-[11px] font-black tracking-wide">
             <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span> LIVE IN CBD • NITA VERIFIED
           </div>
           <h1 className="mt-6 text-[48px] md:text-[60px] leading-[0.9] font-black tracking-[-0.03em] text-[#0F172A]">Plumbing help<br/>in CBD, in<br/><span className="text-[#0A66FF]">30 minutes.</span></h1>
-          <p className="mt-6 text-[17px] leading-7 text-[#475569] max-w-[480px]">RapidFundi is now live in Nairobi CBD with NITA-licensed fundis stationed inside the CBD. No matatu delay — we walk to you. Upfront pricing, photo proof before you pay M-Pesa.</p>
+          <p className="mt-6 text-[17px] leading-7 text-[#475569] max-w-[480px]">RapidFundi by Lantei is now live in Nairobi CBD with NITA-licensed fundis stationed inside the CBD. No matatu delay — we walk to you. Upfront pricing, photo proof before you pay M-Pesa.</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link href="#download" className="bg-[#0F172A] text-white px-8 py-4 rounded-full font-bold text-[14px]">Book CBD Fundi</Link>
             <Link href="tel:+254722819877" className="bg-white border border-black/10 px-8 py-4 rounded-full font-bold text-[14px]">Call +254 722 819 877</Link>
           </div>
         </div>
-
         <div className="relative md:ml-8">
           <div className="bg-white rounded-[32px] border border-black/[0.06] shadow-[0_24px_80px_rgba(15,23,42,0.12)] p-3">
             <div className="bg-[#F8FAFC] rounded-[24px] overflow-hidden h-[460px] relative flex flex-col">
@@ -86,7 +84,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SERVICES */}
       <section id="services" className="bg-[#FCFBF8] py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
@@ -129,17 +126,16 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ABOUT - PROFESSIONAL */}
       <section id="about" className="bg-white py-24 px-6 border-t border-black/[0.04]">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-[0.9fr_1.1fr] gap-16 items-start">
             <div>
-              <div className="inline-flex bg-[#0A1931] text-white px-3.5 py-1.5 rounded-full text-[10px] font-black tracking-[0.2em]">ABOUT RAPIDFUNDI</div>
+              <div className="inline-flex bg-[#0A1931] text-white px-3.5 py-1.5 rounded-full text-[10px] font-black tracking-[0.2em]">ABOUT RAPIDFUNDI BY LANTEI</div>
               <h2 className="mt-5 text-[36px] md:text-[46px] font-black leading-[0.92] tracking-[-0.02em] text-[#0A1931]">Professional plumbing for Nairobi's commercial core.</h2>
               <div className="mt-8 space-y-6">
                 <div className="flex gap-4"><div className="w-10 h-10 rounded-full bg-[#F8FAFC] border border-black/5 flex items-center justify-center flex-shrink-0">🛡️</div><div><div className="font-black text-[14px] text-[#0A1931]">NITA Licensed & Council Compliant</div><div className="text-[13px] text-[#64748B] leading-6 mt-1">Every fundi is NITA-certified and vetted for work inside commercial buildings. We issue proper invoices and comply with Nairobi County by-laws for CBD operations.</div></div></div>
                 <div className="flex gap-4"><div className="w-10 h-10 rounded-full bg-[#F8FAFC] border border-black/5 flex items-center justify-center flex-shrink-0">⚡</div><div><div className="font-black text-[14px] text-[#0A1931]">Built for 30-Minute Response</div><div className="text-[13px] text-[#64748B] leading-6 mt-1">We station our team inside the CBD grid — not outside it. Our fundis walk to your shop or office on Moi, Kimathi, Tom Mboya and Kenyatta Ave. No matatu delays.</div></div></div>
-                <div className="flex gap-4"><div className="w-10 h-10 rounded-full bg-[#F8FAFC] border border-black/5 flex items-center justify-center flex-shrink-0">📸</div><div><div className="font-black text-[14px] text-[#0A1931]">Upfront Pricing & Photo Proof</div><div className="text-[13px] text-[#64748B] leading-6 mt-1">You receive a fixed quote in the app before work starts. We share before/after photos for verification. You approve, then pay via M-Pesa — no hidden fees.</div></div></div>
+                <div className="flex gap-4"><div className="w-10 h-10 rounded-full bg-[#F8FAFC] border border-black/5 flex items-center justify-center flex-shrink-0">📸</div><div><div className="font-black text-[14px] text-[#0A1931]">Upfront Pricing & Photo Proof</div><div className="text-[13px] text-[#64748B] leading-6 mt-1">You receive a fixed quote in the app before work starts. We share before/after photos for verification. You approve, then pay via M-Pesa under LANTEI — no hidden fees.</div></div></div>
               </div>
             </div>
             <div>
@@ -147,12 +143,12 @@ export default function Home() {
                 <div className="absolute top-0 right-0 w-64 h-64 bg-[#0A66FF]/20 rounded-full blur-[60px]"></div>
                 <div className="relative">
                   <h3 className="text-[22px] font-black leading-[1.1]">Why we started in CBD</h3>
-                  <p className="mt-4 text-[14px] leading-7 text-white/70">80% of plumbing emergencies in Nairobi CBD cause businesses to shut down for half a day waiting for a fundi coming from Eastlands or South B.<br/><br/>RapidFundi solves this by operating like an in-building maintenance team, but on-demand. We are based at Archives, available 8AM-7PM, and currently live in 6 CBD corridors. Other estates — Westlands, Upperhill, Kilimani — are launching soon.</p>
+                  <p className="mt-4 text-[14px] leading-7 text-white/70">80% of plumbing emergencies in Nairobi CBD cause businesses to shut down for half a day waiting for a fundi coming from Eastlands or South B.<br/><br/>RapidFundi by Lantei solves this by operating like an in-building maintenance team, but on-demand. We are based at Archives, available 8AM-7PM, and currently live in 6 CBD corridors.</p>
                   <div className="mt-8 grid grid-cols-3 border-t border-white/10 pt-6"><div><div className="text-[24px] font-black">40+</div><div className="text-[11px] text-white/50 mt-1 uppercase tracking-wide">CBD jobs</div></div><div><div className="text-[24px] font-black">28 min</div><div className="text-[11px] text-white/50 mt-1 uppercase tracking-wide">Avg response</div></div><div><div className="text-[24px] font-black">4.8/5</div><div className="text-[11px] text-white/50 mt-1 uppercase tracking-wide">Client rating</div></div></div>
                 </div>
               </div>
               <div className="mt-4 bg-[#FCFBF8] border border-black/5 rounded-[20px] p-5 flex items-center justify-between">
-                <div className="flex items-center gap-3"><img src="https://i.pravatar.cc/100?img=33" className="w-11 h-11 rounded-full border border-black/5" alt="founder" /><div><div className="font-black text-[13px] text-[#0A1931]">RapidFundi Operations</div><div className="text-[11px] text-[#64748B]">Nairobi CBD • +254 722 819 877</div></div></div>
+                <div className="flex items-center gap-3"><img src="https://i.pravatar.cc/100?img=33" className="w-11 h-11 rounded-full border border-black/5" alt="founder" /><div><div className="font-black text-[13px] text-[#0A1931]">RapidFundi by Lantei</div><div className="text-[11px] text-[#64748B]">M-Pesa: LANTEI • +254 722 819 877</div></div></div>
                 <a href="tel:+254722819877" className="bg-[#FFC83D] text-[#0A1931] px-5 py-2.5 rounded-full text-[12px] font-black">Call Now</a>
               </div>
             </div>
@@ -161,10 +157,15 @@ export default function Home() {
       </section>
 
       <section id="download" className="bg-[#FCFBF8] py-16 px-6">
-        <div className="max-w-7xl mx-auto bg-white border border-black/[0.06] rounded-[28px] p-8 md:p-10 flex flex-col md:flex-row justify-between gap-6 items-center"><div><h2 className="text-[26px] font-black text-[#0A1931]">RapidFundi for CBD offices & shops</h2><p className="mt-2 text-[13px] text-[#64748B] max-w-[420px]">Book in 30 seconds, track fundi en route, get photo proof before M-Pesa. Currently Nairobi CBD only.</p></div><div className="flex gap-3"><a href="#" className="bg-[#0A1931] text-white px-6 py-3 rounded-full text-[13px] font-black">Download Android App</a><a href="#waitlist" className="bg-white border border-black/10 px-6 py-3 rounded-full text-[13px] font-bold">Join Waitlist</a></div></div>
+        <div className="max-w-7xl mx-auto bg-white border border-black/[0.06] rounded-[28px] p-8 md:p-10 flex flex-col md:flex-row justify-between gap-6 items-center"><div><h2 className="text-[26px] font-black text-[#0A1931]">RapidFundi by Lantei for CBD</h2><p className="mt-2 text-[13px] text-[#64748B] max-w-[420px]">Book in 30 seconds, track fundi en route, get photo proof before M-Pesa. Payments secured under LANTEI. Currently Nairobi CBD only.</p></div><div className="flex gap-3"><a href="#" className="bg-[#0A1931] text-white px-6 py-3 rounded-full text-[13px] font-black">Download Android App</a><a href="#waitlist" className="bg-white border border-black/10 px-6 py-3 rounded-full text-[13px] font-bold">Join Waitlist</a></div></div>
       </section>
 
-      <footer className="bg-[#0A1931] text-white py-10 px-6 border-t border-white/10"><div className="max-w-7xl mx-auto flex justify-between text-[11px] text-white/50"><span>© 2026 RapidFundi Ltd. • Currently Live: Nairobi CBD</span><span>+254 722 819 877 • Archives, CBD</span></div></footer>
+      <footer className="bg-[#0A1931] text-white py-10 px-6 border-t border-white/10">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-2 text-[11px] text-white/50">
+          <span>© 2026 RapidFundi by Lantei • A product of Lantei • All payments secured under Lantei</span>
+          <span>LANTEI SUPPLIES • +254 722 819 877 • Archives, CBD • Currently Live: Nairobi CBD</span>
+        </div>
+      </footer>
     </main>
   );
 }
