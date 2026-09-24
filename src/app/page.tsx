@@ -16,10 +16,10 @@ export default function Home() {
           <Link href="/" className="flex items-center gap-3">
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 bg-white rounded-xl border border-black/5 shadow-sm flex items-center justify-center overflow-hidden p-1.5">
-                <img src="/rapidfundi-logo.png?v=2" alt="rapidfundi" className="w-full h-full object-contain mix-blend-multiply" />
+                <img src="/rapidfundi.png?v=2" alt="rapidfundi" className="w-full h-full object-contain mix-blend-multiply" />
               </div>
               <div className="leading-[0.9]">
-                <div className="font-black text-[19px] tracking-[-0.02em] text-[#0A1931]">rapidfundi</div>
+                <div className="font-black text-[19px] tracking-[-0.02em] text-[#0A1931]">RapidFundi</div>
                 <div className="text-[10px] font-black tracking-[0.18em] text-[#0A66FF] mt-[2px]">PLUMBING • NAIROBI CBD</div>
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function Home() {
             Plumbing help<br/>in CBD, in<br/><span className="text-[#0A66FF]">30 minutes.</span>
           </h1>
           <p className="mt-6 text-[17px] leading-7 text-[#475569] max-w-[480px]">
-            rapidfundi is now live in Nairobi CBD with NITA-licensed fundis stationed inside the CBD. No matatu delay — we walk to you. Upfront pricing, photo proof before you pay M-Pesa.
+            RapidFundi is now live in Nairobi CBD with NITA-licensed fundis stationed inside the CBD. No matatu delay — we walk to you. Upfront pricing, photo proof before you pay M-Pesa.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link href="#download" className="bg-[#0F172A] text-white px-8 py-4 rounded-full font-bold text-[14px]">Book CBD Fundi</Link>
@@ -194,7 +194,7 @@ export default function Home() {
 
       <footer className="bg-[#0A1931] text-white py-10 px-6 border-t border-white/10">
         <div className="max-w-7xl mx-auto flex justify-between text-[11px] text-white/50">
-          <span>© 2026 rapidfundi Ltd. • Currently Live: Nairobi CBD</span>
+          <span>© 2026 RapidFundi Ltd. • Currently Live: Nairobi CBD</span>
           <span>0712 345 678 • Archives, CBD</span>
         </div>
       </footer>
