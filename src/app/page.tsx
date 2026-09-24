@@ -166,6 +166,26 @@ export default function Home() {
           <span>LANTEI SUPPLIES • +254 722 819 877 • Archives, CBD • Currently Live: Nairobi CBD</span>
         </div>
       </footer>
+            {/* FLOATING WHATSAPP - RapidFundi by Lantei */}
+      <a
+        href="https://wa.me/254722819877?text=Hi%20RapidFundi%20by%20Lantei%20%F0%9F%91%8B%20I%20need%20a%20plumber%20in%20CBD"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 z-[999] group"
+      >
+        <div className="relative">
+          <div className="absolute inset-0 bg-[#25D366] rounded-full animate-ping opacity-30"></div>
+          <div className="relative w-[60px] h-[60px] bg-[#25D366] rounded-full flex items-center justify-center shadow-[0_8px_24px_rgba(37,211,102,0.4)] group-hover:scale-110 transition-transform">
+            <svg viewBox="0 0 24 24" className="w-7 h-7 fill-white">
+              <path d="M12.04 2c-5.46 0-9.91 4.44-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.44 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2m0 18.03c-1.47 0-2.91-.39-4.18-1.12l-.3-.18-3.12.82.83-3.04-.2-.31A8.033 8.033 0 014.04 11.91a8.02 8.02 0 018.02-8.02c2.14 0 4.15.83 5.66 2.34a7.94 7.94 0 012.35 5.66c0 4.42-3.6 8.02-8.03 8.02m4.42-5.99c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.92-1.18-.71-.63-1.19-1.41-1.33-1.65-.14-.24-.01-.37.11-.49.1-.1.24-.26.36-.4.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.41-.54-.42h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2 0 1.18.86 2.32.98 2.48.12.16 1.69 2.58 4.1 3.62.57.25 1.02.4 1.37.51.58.18 1.1.16 1.51.1.46-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28"/>
+            </svg>
+          </div>
+          <div className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full border-2 border-white animate-pulse"></div>
+        </div>
+        <div className="absolute bottom-[14px] right-[72px] bg-white border border-black/10 shadow-xl rounded-full px-4 py-2 text-[12px] font-black text-[#0A1931] whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+          Chat on WhatsApp • +254 722 819 877
+        </div>
+      </a>
     </main>
   );
 }
