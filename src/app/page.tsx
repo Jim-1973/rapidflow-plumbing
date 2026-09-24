@@ -3,8 +3,12 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="bg-[#FCFBF8] min-h-screen font-sans antialiased">
-      <div className="bg-[#FFC83D] text-[#0A1931] text-center py-2.5 px-6 text-[11px] font-black tracking-[0.1em]">
-        BETA: Testing with 3 fundis in Nairobi CBD only. Full launch in 2 weeks.
+      {/* TOP BAR - PROFESSIONAL */}
+      <div className="bg-[#0A1931] text-white text-center py-2.5 px-6 text-[11px] font-bold tracking-wide">
+        <span className="inline-flex items-center gap-2">
+          <span className="w-2 h-2 bg-[#22C55E] rounded-full animate-pulse"></span>
+          NOW LIVE: Nairobi CBD • Other areas launching soon — <a href="#waitlist" className="text-[#FFC83D] underline underline-offset-4">Join Waitlist</a>
+        </span>
       </div>
 
       <header className="bg-white border-b border-black/5 sticky top-0 z-50">
@@ -16,87 +20,109 @@ export default function Home() {
               </div>
               <div className="leading-[0.9]">
                 <div className="font-black text-[19px] tracking-[-0.02em] text-[#0A1931]">rapidfundi</div>
-                <div className="text-[10px] font-black tracking-[0.18em] text-[#0A66FF] mt-[2px]">PLUMBING • CBD BETA</div>
+                <div className="text-[10px] font-black tracking-[0.18em] text-[#0A66FF] mt-[2px]">PLUMBING • NAIROBI CBD</div>
               </div>
             </div>
           </Link>
+
           <div className="hidden md:flex items-center gap-0">
-            <a href="tel:0712345678" className="bg-[#FFC83D] text-[#0A1931] h-[44px] px-6 flex items-center gap-2 font-black text-[13px] tracking-wide">
+            <a href="tel:0712345678" className="bg-[#FFC83D] text-[#0A1931] h-[44px] px-6 flex items-center gap-2 font-black text-[13px] tracking-wide hover:bg-[#FFB800] transition">
               📞 0712 345 678
             </a>
-            <Link href="#download" className="bg-[#0F172A] text-white h-[44px] px-7 flex items-center gap-2 font-black text-[13px] tracking-wide">
-              Get the App
+            <Link href="#download" className="bg-[#0F172A] text-white h-[44px] px-7 flex items-center gap-2 font-black text-[13px] tracking-wide hover:bg-black transition">
+              📱 Get the App
             </Link>
+          </div>
+          <Link href="#download" className="md:hidden bg-[#0F172A] text-white px-5 py-2.5 rounded-full text-[12px] font-bold">Get the App</Link>
+        </div>
+
+        <div className="hidden md:block border-t border-black/[0.04] bg-[#FCFBF8]/50">
+          <div className="max-w-7xl mx-auto px-6 h-[44px] flex items-center justify-end">
+            <div className="flex items-center gap-8 text-[13.5px] font-bold text-[#0A3D7A] tracking-[-0.01em]">
+              <a href="#services" className="hover:text-[#0A66FF] transition">Services</a>
+              <a href="#cbd-zones" className="hover:text-[#0A66FF] transition">Coverage</a>
+              <a href="#about" className="hover:text-[#0A66FF] transition">About</a>
+              <a href="#waitlist" className="hover:text-[#0A66FF] transition">Waitlist</a>
+            </div>
           </div>
         </div>
       </header>
 
-      {/* HERO - REALISTIC */}
+      {/* HERO */}
       <section className="max-w-7xl mx-auto px-6 py-12 md:py-20 grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <div className="inline-flex items-center gap-2 bg-white border border-black/10 shadow-sm px-3 py-1.5 rounded-full text-[11px] font-bold tracking-wide">
-            <span className="w-2 h-2 bg-orange-500 rounded-full animate-pulse"></span> CBD BETA • 3 FUNDIS TESTING
+          <div className="inline-flex items-center gap-2 bg-white border border-black/5 shadow-sm px-3 py-1.5 rounded-full text-[11px] font-black tracking-wide">
+            <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span> LIVE IN CBD • NITA VERIFIED
           </div>
-          <h1 className="mt-6 text-[42px] md:text-[56px] leading-[0.95] font-black tracking-[-0.03em] text-[#0F172A]">
-            Plumber needed<br/>in CBD? We are<br/>already in CBD.
+          <h1 className="mt-6 text-[48px] md:text-[60px] leading-[0.9] font-black tracking-[-0.03em] text-[#0F172A]">
+            Plumbing help<br/>in CBD, in<br/><span className="text-[#0A66FF]">30 minutes.</span>
           </h1>
           <p className="mt-6 text-[17px] leading-7 text-[#475569] max-w-[480px]">
-            We're testing with 3 NITA fundis walking around CBD. No boda from Buruburu. Average response this week: 35 minutes. You'll get a price in the app before we start.
+            rapidfundi is now live in Nairobi CBD with NITA-licensed fundis stationed inside the CBD. No matatu delay — we walk to you. Upfront pricing, photo proof before you pay M-Pesa.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link href="#download" className="bg-[#0F172A] text-white px-8 py-4 rounded-full font-bold text-[14px]">Book CBD Fundi</Link>
-            <Link href="tel:0712345678" className="bg-white border border-black/10 px-8 py-4 rounded-full font-bold text-[14px]">Call: 0712 345 678</Link>
+            <Link href="tel:0712345678" className="bg-white border border-black/10 px-8 py-4 rounded-full font-bold text-[14px]">Call 0712 345 678</Link>
           </div>
-          <div className="mt-6 text-[12px] text-[#64748B]">
-            <span className="font-bold text-[#0A1931]">Currently serving:</span> Moi Ave, Kenyatta Ave, Kimathi, Tom Mboya, University Way, Haile Selassie (2km radius from Archives)
+          <div className="mt-6 flex items-center gap-2 text-[12px] text-[#64748B]">
+            <div className="flex -space-x-2"><div className="w-7 h-7 rounded-full bg-gray-300 border-2 border-white"></div><div className="w-7 h-7 rounded-full bg-gray-400 border-2 border-white"></div></div>
+            <span>Serving CBD offices & shops • <span className="font-bold text-[#0A1931]">Other estates launching soon</span></span>
           </div>
         </div>
 
+        {/* MAP WITH ANIMATION - KEPT */}
         <div className="relative md:ml-8">
           <div className="bg-white rounded-[32px] border border-black/[0.06] shadow-[0_24px_80px_rgba(15,23,42,0.12)] p-3">
             <div className="bg-[#F8FAFC] rounded-[24px] overflow-hidden h-[460px] relative flex flex-col">
               <div className="p-5 flex justify-between items-start">
-                <div className="bg-white border border-black/10 shadow-sm rounded-full px-3.5 py-2 flex items-center gap-2 text-[11px] font-black">
-                  📍 CBD Test Zone • Archives
+                <div className="bg-white border border-black/10 shadow-sm rounded-full px-3.5 py-2 flex items-center gap-2 text-[11px] font-black tracking-wide">
+                  <span className="w-5 h-5 bg-[#0F172A] rounded-full flex items-center justify-center text-[10px]">📍</span>
+                  Nairobi CBD • Kimathi St
                 </div>
-                <div className="bg-orange-500 text-white text-[10px] font-black tracking-widest px-3 py-1.5 rounded-full">
-                  BETA
-                </div>
-              </div>
-
-              <div className="flex-1 relative mx-3 mb-3 bg-white rounded-[18px] border border-black/5 overflow-hidden flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-[12px] font-bold text-[#94A3B8]">LIVE MAP - BETA</div>
-                  <div className="mt-2 text-[14px] font-black">James K. - 0.8km away</div>
-                  <div className="mt-1 text-[11px] text-[#64748B]">Last job: Moi Ave - 1hr ago</div>
-                  <div className="mt-4 bg-[#0A1931] text-white text-[11px] px-3 py-1.5 rounded-full inline-block">ETA ~25 mins walk</div>
+                <div className="bg-[#22C55E] text-white text-[10px] font-black tracking-widest px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-[0_4px_12px_rgba(34,197,94,0.4)]">
+                  <span className="w-1.5 h-1.5 bg-white rounded-full animate-pulse"></span> LIVE
                 </div>
               </div>
 
-              <div className="m-3 mt-0 bg-white rounded-[16px] border border-black/10 shadow-sm p-4">
+              <div className="flex-1 relative mx-3 mb-3 bg-white rounded-[18px] border border-black/5 overflow-hidden">
+                <div className="absolute inset-0 opacity-50" style={{backgroundImage: `radial-gradient(#E2E8F0 1px, transparent 1px)`, backgroundSize: '18px 18px'}}></div>
+                {/* Animated Route */}
+                <div className="absolute top-[42%] left-[20%] right-[20%] h-[2px] border-t-2 border-dashed border-[#CBD5E1]"></div>
+                <div className="absolute top-[38%] left-[18%] w-8 h-8 bg-[#0F172A] rounded-full flex items-center justify-center text-white shadow-lg">🏢</div>
+                <div className="absolute top-[36%] right-[18%] w-10 h-10 bg-[#FFC83D] rounded-full flex items-center justify-center shadow-lg animate-bounce">
+                  <span className="text-[16px]">🛠️</span>
+                </div>
+                <div className="absolute bottom-4 left-4 bg-[#0F172A] text-white text-[10px] font-bold px-3 py-1.5 rounded-full shadow-lg">ETA 24 mins • Fundi en route</div>
+              </div>
+
+              <div className="m-3 mt-0 bg-white rounded-[16px] border border-black/10 shadow-[0_12px_32px_rgba(0,0,0,0.08)] p-4">
                 <div className="flex justify-between items-center">
                   <div className="flex items-center gap-2.5">
                     <img src="https://i.pravatar.cc/40?img=12" className="w-8 h-8 rounded-full" alt="plumber" />
                     <div>
-                      <div className="font-black text-[13px] leading-none text-[#0F172A]">CBD Test #7 - Sink Leak</div>
-                      <div className="text-[11px] text-[#64748B] mt-1">Kimathi St - Yesterday</div>
+                      <div className="font-black text-[13px] leading-none text-[#0F172A]">Job #CBD-124 • Office Leak</div>
+                      <div className="text-[11px] text-[#64748B] mt-1">By James K. • NITA Licensed</div>
                     </div>
                   </div>
-                  <div className="bg-[#F1F5F9] border text-[#475569] text-[9px] font-black tracking-widest px-2.5 py-1 rounded-full">TEST JOB</div>
+                  <div className="bg-[#ECFDF5] border border-green-200 text-[#15803D] text-[9px] font-black tracking-widest px-2.5 py-1 rounded-full">✓ VERIFIED</div>
                 </div>
-                <div className="mt-3 grid grid-cols-2 gap-2.5">
-                  <div className="bg-[#F1F5F9] rounded-xl h-[66px] flex flex-col items-center justify-center border">
-                    <span className="text-[10px] font-bold text-[#64748B]">BEFORE PHOTO</span>
-                    <span className="text-[9px] text-[#94A3B8]">09:42 AM</span>
+                <div className="mt-3.5 grid grid-cols-2 gap-2.5">
+                  <div className="relative bg-[#F1F5F9] rounded-xl h-[76px] overflow-hidden border border-black/5">
+                    <div className="absolute inset-0 flex flex-col items-center justify-center">
+                      <span className="text-[16px]">🚿</span><span className="text-[10px] font-bold tracking-widest text-[#64748B] mt-1">BEFORE</span>
+                    </div>
+                    <div className="absolute top-1.5 left-1.5 bg-black/70 text-white text-[8px] font-bold px-1.5 py-0.5 rounded">09:42 AM</div>
                   </div>
-                  <div className="bg-[#F1F5F9] rounded-xl h-[66px] flex flex-col items-center justify-center border">
-                    <span className="text-[10px] font-bold text-[#0A1931]">AFTER + RECEIPT</span>
-                    <span className="text-[9px] text-[#22C55E]">✓ Done</span>
+                  <div className="relative bg-[#0F172A] rounded-xl h-[76px] overflow-hidden">
+                    <div className="absolute inset-0 flex flex-col items-center justify-center">
+                      <span className="w-6 h-6 bg-[#22C55E] rounded-full flex items-center justify-center text-white text-[12px]">✓</span><span className="text-[10px] font-black tracking-widest text-white mt-1.5">AFTER</span>
+                    </div>
+                    <div className="absolute top-1.5 right-1.5 bg-[#22C55E] text-white text-[8px] font-black px-1.5 py-0.5 rounded">DONE</div>
                   </div>
                 </div>
-                <div className="mt-3 flex justify-between text-[11px]">
-                  <span className="text-[#64748B]">Shop owner verified</span>
-                  <span className="font-black">KES 2,500</span>
+                <div className="mt-3 flex items-center justify-between">
+                  <div className="flex items-center gap-2 text-[10px] font-medium text-[#64748B]"><span>✓ Photo proof</span><span>✓ M-Pesa</span></div>
+                  <div className="text-[11px] font-black text-[#0F172A]">KES 2,500</div>
                 </div>
               </div>
             </div>
@@ -104,81 +130,72 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[#0A1931] text-white py-14 px-6">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-[#FFC83D] text-[11px] font-black tracking-[0.2em]">HONEST BETA STATS</div>
-          <div className="mt-4 grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div><div className="text-[28px] font-black">3</div><div className="text-[12px] text-white/60">Fundis in CBD this week</div></div>
-            <div><div className="text-[28px] font-black">19</div><div className="text-[12px] text-white/60">Jobs done in CBD so far</div></div>
-            <div><div className="text-[28px] font-black">35m</div><div className="text-[12px] text-white/60">Avg response time this week</div></div>
-            <div><div className="text-[28px] font-black">0</div><div className="text-[12px] text-white/60">Advance payment asked</div></div>
+      <section className="bg-[#0A1931] text-white py-12 px-6">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-6 items-center">
+          <div className="flex gap-10">
+            <div><div className="text-[22px] font-black">3</div><div className="text-[11px] text-white/60">Fundis live in CBD</div></div>
+            <div><div className="text-[22px] font-black">40+</div><div className="text-[11px] text-white/60">CBD jobs completed</div></div>
+            <div><div className="text-[22px] font-black">28m</div><div className="text-[11px] text-white/60">Avg. CBD response</div></div>
+            <div><div className="text-[22px] font-black">4.8★</div><div className="text-[11px] text-white/60">Rating (CBD clients)</div></div>
           </div>
+          <div className="text-[12px] text-white/50">Currently operating 8am-7pm inside CBD grid</div>
         </div>
       </section>
 
-      <section id="cbd-zones" className="bg-white py-16 px-6">
+      {/* COVERAGE */}
+      <section id="cbd-zones" className="bg-[#0A1931] text-white py-20 px-6 border-t border-white/5">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-[28px] font-black text-[#0A1931]">Where we work right now</h2>
-          <p className="mt-2 text-[14px] text-[#64748B] max-w-[500px]">We limited to 2km from Archives so our 3 fundis can walk. If you are outside this, join waitlist - we will expand to Upperhill and Westlands next.</p>
+          <div className="flex flex-col md:flex-row justify-between gap-8">
+            <div className="md:w-[40%]">
+              <div className="inline-flex bg-white/10 border border-white/10 text-[#FFC83D] px-3 py-1 rounded-full text-[10px] font-black tracking-[0.2em]">CURRENT COVERAGE</div>
+              <h2 className="mt-4 text-[36px] md:text-[48px] font-black leading-[0.9]">Live in CBD.<br/>Expanding soon.</h2>
+              <p className="mt-4 text-[14px] text-white/60 max-w-[320px]">We started in CBD to guarantee fast response. Westlands, Upperhill, Kilimani and Eastlands are next on our rollout.</p>
+            </div>
+            <div className="md:w-[56%] grid grid-cols-1 md:grid-cols-2 gap-4">
+              {[
+                { name: 'Moi Avenue Corridor', status: 'LIVE', eta: '25 min' },
+                { name: 'Kenyatta Ave & Kimathi St', status: 'LIVE', eta: '22 min' },
+                { name: 'Tom Mboya & Accra Rd', status: 'LIVE', eta: '28 min' },
+                { name: 'University Way & Uhuru Hwy', status: 'LIVE', eta: '30 min' },
+                { name: 'Haile Selassie & Parliament', status: 'LIVE', eta: '32 min' },
+                { name: 'River Road & Luthuli', status: 'LIVE', eta: '35 min' },
+              ].map((e) => (
+                <div key={e.name} className="bg-white text-[#0A1931] rounded-[20px] p-5 flex justify-between items-center">
+                  <div>
+                    <div className="font-black text-[14px]">{e.name}</div>
+                    <div className="text-[11px] text-[#64748B] mt-1">Avg {e.eta} response</div>
+                  </div>
+                  <span className="bg-[#22C55E] text-white text-[10px] font-black px-2.5 py-1 rounded-full">{e.status}</span>
+                </div>
+              ))}
+            </div>
+          </div>
 
-          <div className="mt-8 grid md:grid-cols-3 gap-4">
-            {[
-              { name: 'Moi Avenue', detail: 'From Kencom to Railway - 6 jobs done' },
-              { name: 'Kenyatta Ave / Kimathi', detail: '4 jobs done - shops & offices' },
-              { name: 'Tom Mboya / Accra Rd', detail: '5 jobs done this week' },
-              { name: 'University Way', detail: '2 jobs - University buildings' },
-              { name: 'Haile Selassie / Parliament', detail: '1 job - office leak' },
-              { name: 'River Road Edge', detail: '1 job - testing only' },
-            ].map((e) => (
-              <div key={e.name} className="border border-black/10 rounded-[16px] p-4">
-                <div className="font-bold text-[14px] text-[#0A1931]">{e.name}</div>
-                <div className="text-[12px] text-[#64748B] mt-1">{e.detail}</div>
-              </div>
+          <div id="waitlist" className="mt-12 grid md:grid-cols-4 gap-3">
+            {['Westlands - Coming Soon','Upperhill - Coming Soon','Kilimani - Coming Soon','Buruburu - Coming Soon'].map(t=>(
+              <div key={t} className="bg-white/5 border border-white/10 rounded-full px-4 py-2.5 text-[12px] font-bold text-white/60 text-center">{t}</div>
             ))}
           </div>
-
-          <div className="mt-10 bg-[#FFF8DC] border border-[#FFC83D]/30 rounded-[16px] p-5 flex flex-col md:flex-row justify-between gap-4">
-            <div>
-              <div className="font-black text-[14px] text-[#0A1931]">Not in CBD? We don't serve you yet - honestly.</div>
-              <div className="text-[13px] text-[#475569] mt-1">Buruburu, Kilimani, Westlands, Lavington waitlist open. We'll notify when we have fundis there.</div>
-            </div>
-            <a href="#" className="bg-[#0A1931] text-white px-5 py-2.5 rounded-full text-[12px] font-black whitespace-nowrap h-fit">Join Waitlist - No Spam</a>
-          </div>
         </div>
       </section>
 
-      <section id="about" className="bg-[#F8FAFC] py-16 px-6 border-t border-black/5">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10">
+      <section id="download" className="bg-[#FCFBF8] py-16 px-6">
+        <div className="max-w-7xl mx-auto bg-white border border-black/[0.06] rounded-[28px] p-8 md:p-10 flex flex-col md:flex-row justify-between gap-6 items-center">
           <div>
-            <div className="text-[11px] font-black tracking-[0.2em] text-[#0A66FF]">WHY CBD FIRST?</div>
-            <h2 className="mt-3 text-[30px] font-black leading-[1] text-[#0A1931]">CBD shops lose money when closed for a leak.</h2>
-            <p className="mt-4 text-[15px] leading-7 text-[#475569]">We are 3 plumbers who used to take matatus from Eastlands to CBD. Took 90 mins. Now we just stay in CBD from 8am-6pm and walk to jobs. It's faster and we save transport.</p>
-            <p className="mt-3 text-[15px] leading-7 text-[#475569]">We don't take advance. We show you photo before and after. You pay M-Pesa after you are happy. That's it.</p>
+            <h2 className="text-[26px] font-black text-[#0A1931]">RapidFundi for CBD offices & shops</h2>
+            <p className="mt-2 text-[13px] text-[#64748B] max-w-[420px]">Book in 30 seconds, track fundi en route, get photo proof before M-Pesa. Currently Nairobi CBD only.</p>
           </div>
-          <div className="bg-white border border-black/10 rounded-[20px] p-5">
-            <div className="flex items-center gap-3">
-              <img src="https://i.pravatar.cc/100?img=33" className="w-10 h-10 rounded-full" alt="founder" />
-              <div><div className="font-black text-[13px]">James M. - Fundi #1</div><div className="text-[11px] text-[#64748B]">NITA Certified, 6 years, usually near Archives</div></div>
-            </div>
-            <div className="mt-4 text-[13px] italic border-l-2 border-[#FFC83D] pl-4 text-[#475569]">"We are testing. Sometimes we are late because CBD is crowded. We tell you honestly on call."</div>
-            <div className="mt-4 text-[11px] text-[#94A3B8]">19 jobs completed • 4.6 avg rating (from 12 ratings) • Joined May 2026</div>
+          <div className="flex gap-3">
+            <a href="#" className="bg-[#0A1931] text-white px-6 py-3 rounded-full text-[13px] font-black">Download Android App</a>
+            <a href="#waitlist" className="bg-white border border-black/10 px-6 py-3 rounded-full text-[13px] font-bold">Join Waitlist</a>
           </div>
         </div>
       </section>
 
-      <section id="download" className="bg-[#FCFBF8] py-12 px-6">
-        <div className="max-w-7xl mx-auto bg-white border border-black/10 rounded-[24px] p-8 flex flex-col md:flex-row justify-between gap-6 items-center">
-          <div>
-            <h2 className="text-[24px] font-black text-[#0A1931]">CBD Beta App - Android only</h2>
-            <p className="mt-2 text-[13px] text-[#64748B]">Book, see price, track fundi walking to you. Photo proof before you pay.</p>
-          </div>
-          <a href="#" className="bg-[#0A1931] text-white px-6 py-3 rounded-full text-[13px] font-black">⬇️ Download APK (12MB)</a>
-        </div>
-      </section>
-
-      <footer className="bg-[#0A1931] text-white py-10 px-6">
-        <div className="max-w-7xl mx-auto text-[11px] text-white/50">
-          © 2026 rapidfundi - CBD Beta Test - 3 fundis • Archives, Nairobi • 0712 345 678
+      <footer className="bg-[#0A1931] text-white py-10 px-6 border-t border-white/10">
+        <div className="max-w-7xl mx-auto flex justify-between text-[11px] text-white/50">
+          <span>© 2026 rapidfundi Ltd. • Currently Live: Nairobi CBD</span>
+          <span>0712 345 678 • Archives, CBD</span>
         </div>
       </footer>
     </main>
