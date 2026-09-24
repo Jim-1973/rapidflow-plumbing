@@ -25,9 +25,9 @@ export default function Home() {
           </Link>
           <div className="hidden md:flex items-center gap-0">
             <a href="tel:+254722819877" className="bg-[#FFC83D] text-[#0A1931] h-[44px] px-6 flex items-center gap-2 font-black text-[13px] tracking-wide">📞 +254 722 819 877</a>
-            <Link href="#download" className="bg-[#0F172A] text-white h-[44px] px-7 flex items-center gap-2 font-black text-[13px] tracking-wide">📱 Get the App</Link>
+            <Link href="#contact" className="bg-[#0F172A] text-white h-[44px] px-7 flex items-center gap-2 font-black text-[13px] tracking-wide">📱 Contact Us</Link>
           </div>
-          <Link href="#download" className="md:hidden bg-[#0F172A] text-white px-5 py-2.5 rounded-full text-[12px] font-bold">Get the App</Link>
+          <Link href="#contact" className="md:hidden bg-[#0F172A] text-white px-5 py-2.5 rounded-full text-[12px] font-bold">Contact</Link>
         </div>
         <div className="hidden md:block border-t border-black/[0.04] bg-[#FCFBF8]/50">
           <div className="max-w-7xl mx-auto px-6 h-[44px] flex items-center justify-end">
@@ -35,7 +35,7 @@ export default function Home() {
               <a href="#services" className="hover:text-[#0A66FF] transition">Services</a>
               <a href="#cbd-zones" className="hover:text-[#0A66FF] transition">Coverage</a>
               <a href="#about" className="hover:text-[#0A66FF] transition">About</a>
-              <a href="#waitlist" className="hover:text-[#0A66FF] transition">Waitlist</a>
+              <a href="#contact" className="hover:text-[#0A66FF] transition">Contact</a>
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@ export default function Home() {
           <h1 className="mt-6 text-[48px] md:text-[60px] leading-[0.9] font-black tracking-[-0.03em] text-[#0F172A]">Plumbing help<br/>in CBD, in<br/><span className="text-[#0A66FF]">30 minutes.</span></h1>
           <p className="mt-6 text-[17px] leading-7 text-[#475569] max-w-[480px]">RapidFundi by Lantei is now live in Nairobi CBD with NITA-licensed fundis stationed inside the CBD. No matatu delay — we walk to you. Upfront pricing, photo proof before you pay M-Pesa.</p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Link href="#download" className="bg-[#0F172A] text-white px-8 py-4 rounded-full font-bold text-[14px]">Book CBD Fundi</Link>
+            <Link href="#contact" className="bg-[#0F172A] text-white px-8 py-4 rounded-full font-bold text-[14px]">Book CBD Fundi</Link>
             <Link href="tel:+254722819877" className="bg-white border border-black/10 px-8 py-4 rounded-full font-bold text-[14px]">Call +254 722 819 877</Link>
           </div>
         </div>
@@ -91,12 +91,12 @@ export default function Home() {
             <p className="text-[14px] text-[#64748B] max-w-[320px]">Upfront M-Pesa pricing in app. NITA licensed fundis for shops & offices.</p>
           </div>
           <div className="mt-12 grid md:grid-cols-3 gap-6">
-            <div className="group bg-white rounded-[24px] border border-black/[0.06] p-6 hover:-translate-y-1 transition-all"><div className="w-12 h-12 bg-[#FFF4CC] rounded-2xl flex items-center justify-center">🚿</div><h3 className="mt-5 font-black text-[18px] text-[#0A1931]">Drain Unclogging</h3><p className="mt-2 text-[13px] text-[#64748B]">Sinks, toilets, kitchen lines in CBD shops.</p><div className="mt-6 flex justify-between items-center"><span className="font-black text-[13px]">KES 2,500 - 4,500</span><a href="#download" className="bg-[#0A1931] text-white px-4 py-2 rounded-full text-[11px] font-black">Book Now →</a></div></div>
-            <div className="group bg-white rounded-[24px] border border-black/[0.06] p-6 hover:-translate-y-1 transition-all"><div className="w-12 h-12 bg-[#DBEAFE] rounded-2xl flex items-center justify-center">💧</div><h3 className="mt-5 font-black text-[18px] text-[#0A1931]">Leak Detection</h3><p className="mt-2 text-[13px] text-[#64748B]">Office bathrooms, rooftop tanks, hidden pipes.</p><div className="mt-6 flex justify-between items-center"><span className="font-black text-[13px]">KES 3,000 - 6,000</span><a href="#download" className="bg-[#0A1931] text-white px-4 py-2 rounded-full text-[11px] font-black">Book Now →</a></div></div>
+            <div className="group bg-white rounded-[24px] border border-black/[0.06] p-6 hover:-translate-y-1 transition-all"><div className="w-12 h-12 bg-[#FFF4CC] rounded-2xl flex items-center justify-center">🚿</div><h3 className="mt-5 font-black text-[18px] text-[#0A1931]">Drain Unclogging</h3><p className="mt-2 text-[13px] text-[#64748B]">Sinks, toilets, kitchen lines in CBD shops.</p><div className="mt-6 flex justify-between items-center"><span className="font-black text-[13px]">KES 2,500 - 4,500</span><a href="#contact" className="bg-[#0A1931] text-white px-4 py-2 rounded-full text-[11px] font-black">Book Now →</a></div></div>
+            <div className="group bg-white rounded-[24px] border border-black/[0.06] p-6 hover:-translate-y-1 transition-all"><div className="w-12 h-12 bg-[#DBEAFE] rounded-2xl flex items-center justify-center">💧</div><h3 className="mt-5 font-black text-[18px] text-[#0A1931]">Leak Detection</h3><p className="mt-2 text-[13px] text-[#64748B]">Office bathrooms, rooftop tanks, hidden pipes.</p><div className="mt-6 flex justify-between items-center"><span className="font-black text-[13px]">KES 3,000 - 6,000</span><a href="#contact" className="bg-[#0A1931] text-white px-4 py-2 rounded-full text-[11px] font-black">Book Now →</a></div></div>
             <div className="group bg-[#0A1931] rounded-[24px] p-6 relative overflow-hidden"><div className="w-12 h-12 bg-white/10 rounded-2xl flex items-center justify-center">🚨</div><div className="mt-5 inline-flex bg-[#FFC83D] text-[#0A1931] text-[9px] font-black px-2 py-1 rounded-full">MOST REQUESTED IN CBD</div><h3 className="mt-3 font-black text-[18px] text-white">24/7 Emergency</h3><p className="mt-2 text-[13px] text-white/60">Burst pipe, flooded shop. We walk to you.</p><div className="mt-6 flex justify-between items-center"><span className="font-black text-white text-[13px]">KES 4,500+</span><a href="tel:+254722819877" className="bg-white text-[#0A1931] px-4 py-2 rounded-full text-[11px] font-black">Call Now →</a></div></div>
-            <div className="group bg-white rounded-[24px] border border-black/[0.06] p-6 hover:-translate-y-1 transition-all"><div className="w-12 h-12 bg-[#ECFDF5] rounded-2xl flex items-center justify-center">🚽</div><h3 className="mt-5 font-black text-[18px] text-[#0A1931]">Toilet Repair</h3><p className="mt-2 text-[13px] text-[#64748B]">Running, leaking, clogged office toilets.</p><div className="mt-6 flex justify-between items-center"><span className="font-black text-[13px]">KES 2,000 - 5,500</span><a href="#download" className="bg-[#0A1931] text-white px-4 py-2 rounded-full text-[11px] font-black">Book Now →</a></div></div>
-            <div className="group bg-white rounded-[24px] border border-black/[0.06] p-6 hover:-translate-y-1 transition-all"><div className="w-12 h-12 bg-[#F3E8FF] rounded-2xl flex items-center justify-center">🔧</div><h3 className="mt-5 font-black text-[18px] text-[#0A1931]">Heater & Pumps</h3><p className="mt-2 text-[13px] text-[#64748B]">Instant showers, booster pumps for buildings.</p><div className="mt-6 flex justify-between items-center"><span className="font-black text-[13px]">KES 3,500 - 8,000</span><a href="#download" className="bg-[#0A1931] text-white px-4 py-2 rounded-full text-[11px] font-black">Book Now →</a></div></div>
-            <div className="group bg-white rounded-[24px] border border-black/[0.06] p-6 hover:-translate-y-1 transition-all"><div className="w-12 h-12 bg-[#FFEDD5] rounded-2xl flex items-center justify-center">🏗️</div><h3 className="mt-5 font-black text-[18px] text-[#0A1931]">Pipe Installation</h3><p className="mt-2 text-[13px] text-[#64748B]">PPR & PVC for CBD renovations, compliant.</p><div className="mt-6 flex justify-between items-center"><span className="font-black text-[13px]">Custom Quote</span><a href="#download" className="bg-[#0A1931] text-white px-4 py-2 rounded-full text-[11px] font-black">Book Now →</a></div></div>
+            <div className="group bg-white rounded-[24px] border border-black/[0.06] p-6 hover:-translate-y-1 transition-all"><div className="w-12 h-12 bg-[#ECFDF5] rounded-2xl flex items-center justify-center">🚽</div><h3 className="mt-5 font-black text-[18px] text-[#0A1931]">Toilet Repair</h3><p className="mt-2 text-[13px] text-[#64748B]">Running, leaking, clogged office toilets.</p><div className="mt-6 flex justify-between items-center"><span className="font-black text-[13px]">KES 2,000 - 5,500</span><a href="#contact" className="bg-[#0A1931] text-white px-4 py-2 rounded-full text-[11px] font-black">Book Now →</a></div></div>
+            <div className="group bg-white rounded-[24px] border border-black/[0.06] p-6 hover:-translate-y-1 transition-all"><div className="w-12 h-12 bg-[#F3E8FF] rounded-2xl flex items-center justify-center">🔧</div><h3 className="mt-5 font-black text-[18px] text-[#0A1931]">Heater & Pumps</h3><p className="mt-2 text-[13px] text-[#64748B]">Instant showers, booster pumps for buildings.</p><div className="mt-6 flex justify-between items-center"><span className="font-black text-[13px]">KES 3,500 - 8,000</span><a href="#contact" className="bg-[#0A1931] text-white px-4 py-2 rounded-full text-[11px] font-black">Book Now →</a></div></div>
+            <div className="group bg-white rounded-[24px] border border-black/[0.06] p-6 hover:-translate-y-1 transition-all"><div className="w-12 h-12 bg-[#FFEDD5] rounded-2xl flex items-center justify-center">🏗️</div><h3 className="mt-5 font-black text-[18px] text-[#0A1931]">Pipe Installation</h3><p className="mt-2 text-[13px] text-[#64748B]">PPR & PVC for CBD renovations, compliant.</p><div className="mt-6 flex justify-between items-center"><span className="font-black text-[13px]">Custom Quote</span><a href="#contact" className="bg-[#0A1931] text-white px-4 py-2 rounded-full text-[11px] font-black">Book Now →</a></div></div>
           </div>
         </div>
       </section>
@@ -156,17 +156,93 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="download" className="bg-[#FCFBF8] py-16 px-6">
-        <div className="max-w-7xl mx-auto bg-white border border-black/[0.06] rounded-[28px] p-8 md:p-10 flex flex-col md:flex-row justify-between gap-6 items-center"><div><h2 className="text-[26px] font-black text-[#0A1931]">RapidFundi by Lantei for CBD</h2><p className="mt-2 text-[13px] text-[#64748B] max-w-[420px]">Book in 30 seconds, track fundi en route, get photo proof before M-Pesa. Payments secured under LANTEI. Currently Nairobi CBD only.</p></div><div className="flex gap-3"><a href="#" className="bg-[#0A1931] text-white px-6 py-3 rounded-full text-[13px] font-black">Download Android App</a><a href="#waitlist" className="bg-white border border-black/10 px-6 py-3 rounded-full text-[13px] font-bold">Join Waitlist</a></div></div>
+      {/* NEW CONTACT SECTION - SMART */}
+      <section id="contact" className="bg-[#FCFBF8] py-20 px-6 border-t border-black/[0.04]">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row justify-between gap-8 items-start">
+            <div className="md:w-[38%]">
+              <div className="inline-flex bg-[#0A1931] text-white px-3 py-1 rounded-full text-[10px] font-black tracking-[0.2em]">CONTACT & DISPATCH</div>
+              <h2 className="mt-4 text-[36px] md:text-[44px] font-black leading-[0.9] text-[#0A1931]">Talk to a real<br/>person in CBD.</h2>
+              <p className="mt-4 text-[14px] leading-6 text-[#64748B] max-w-[360px]">No bots. Our dispatch team is at Archives. Call, WhatsApp or email — we assign the nearest NITA fundi in minutes. All payments go to <b>LANTEI</b> M-Pesa Till.</p>
+              <div className="mt-6 bg-white border border-black/5 rounded-2xl p-4 flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-[#FFC83D] flex items-center justify-center">📧</div>
+                <div>
+                  <div className="text-[11px] font-black tracking-widest text-[#64748B]">OFFICIAL EMAIL</div>
+                  <a href="mailto:rapidfundi@outlook.com" className="font-black text-[14px] text-[#0A1931] hover:text-[#0A66FF]">rapidfundi@outlook.com</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="md:w-[60%] grid md:grid-cols-3 gap-4">
+              {/* Peter */}
+              <div className="bg-white rounded-[24px] border border-black/[0.06] p-6 hover:-translate-y-1 transition-all shadow-sm">
+                <div className="flex justify-between items-start">
+                  <div className="w-12 h-12 rounded-full bg-[#0A1931] text-white flex items-center justify-center font-black">P</div>
+                  <span className="bg-[#ECFDF5] text-[#15803D] text-[9px] font-black px-2.5 py-1 rounded-full border border-green-200">DISPATCH LEAD</span>
+                </div>
+                <div className="mt-5 font-black text-[17px] text-[#0A1931]">Peter</div>
+                <div className="text-[11px] font-bold text-[#64748B] tracking-wide mt-1">Operations • CBD Hub</div>
+                <div className="mt-4 text-[13px] font-black text-[#0A1931]">+254 722 139 333</div>
+                <div className="mt-4 grid grid-cols-2 gap-2">
+                  <a href="tel:+254722139333" className="bg-[#0A1931] text-white text-center py-2.5 rounded-full text-[11px] font-black">Call Peter</a>
+                  <a href="https://wa.me/254722139333?text=Hi%20Peter%20at%20RapidFundi%20%F0%9F%91%8B%20I%20need%20a%20plumber%20in%20CBD" target="_blank" className="bg-[#25D366] text-white text-center py-2.5 rounded-full text-[11px] font-black">WhatsApp</a>
+                </div>
+              </div>
+
+              {/* Jim */}
+              <div className="bg-white rounded-[24px] border border-black/[0.06] p-6 hover:-translate-y-1 transition-all shadow-sm">
+                <div className="flex justify-between items-start">
+                  <div className="w-12 h-12 rounded-full bg-[#FFC83D] text-[#0A1931] flex items-center justify-center font-black">J</div>
+                  <span className="bg-[#FFF7ED] text-[#C2410C] text-[9px] font-black px-2.5 py-1 rounded-full border border-orange-200">FIELD MANAGER</span>
+                </div>
+                <div className="mt-5 font-black text-[17px] text-[#0A1931]">Jim</div>
+                <div className="text-[11px] font-bold text-[#64748B] tracking-wide mt-1">Fundi Coordination</div>
+                <div className="mt-4 text-[13px] font-black text-[#0A1931]">+254 743 525 184</div>
+                <div className="mt-4 grid grid-cols-2 gap-2">
+                  <a href="tel:+254743525184" className="bg-[#0A1931] text-white text-center py-2.5 rounded-full text-[11px] font-black">Call Jim</a>
+                  <a href="https://wa.me/254743525184?text=Hi%20Jim%20at%20RapidFundi%20%F0%9F%91%8B%20I%20need%20a%20plumber%20in%20CBD" target="_blank" className="bg-[#25D366] text-white text-center py-2.5 rounded-full text-[11px] font-black">WhatsApp</a>
+                </div>
+              </div>
+
+              {/* Main Hotline */}
+              <div className="bg-[#0A1931] rounded-[24px] p-6 relative overflow-hidden text-white">
+                <div className="absolute top-0 right-0 w-40 h-40 bg-[#0A66FF]/30 rounded-full blur-[30px]"></div>
+                <div className="relative">
+                  <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center">📞</div>
+                  <div className="mt-5 font-black text-[17px]">Main Hotline</div>
+                  <div className="text-[11px] font-bold text-white/60 tracking-wide mt-1">24/7 Emergency • M-Pesa: LANTEI</div>
+                  <div className="mt-4 text-[13px] font-black">+254 722 819 877</div>
+                  <div className="mt-4 grid grid-cols-2 gap-2">
+                    <a href="tel:+254722819877" className="bg-white text-[#0A1931] text-center py-2.5 rounded-full text-[11px] font-black">Call Now</a>
+                    <a href="https://wa.me/254722819877?text=Hi%20RapidFundi%20%F0%9F%91%8B%20I%20need%20a%20plumber%20in%20CBD" target="_blank" className="bg-[#25D366] text-white text-center py-2.5 rounded-full text-[11px] font-black">WhatsApp</a>
+                  </div>
+                  <div className="mt-4 text-[10px] text-white/50">Email: <a href="mailto:rapidfundi@outlook.com" className="text-white underline">rapidfundi@outlook.com</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="download" className="bg-white py-16 px-6 border-t border-black/5">
+        <div className="max-w-7xl mx-auto bg-[#FCFBF8] border border-black/[0.06] rounded-[28px] p-8 md:p-10 flex flex-col md:flex-row justify-between gap-6 items-center"><div><h2 className="text-[26px] font-black text-[#0A1931]">RapidFundi by Lantei for CBD</h2><p className="mt-2 text-[13px] text-[#64748B] max-w-[420px]">Book in 30 seconds, track fundi en route, get photo proof before M-Pesa. Payments secured under LANTEI. Currently Nairobi CBD only.</p></div><div className="flex gap-3"><a href="#" className="bg-[#0A1931] text-white px-6 py-3 rounded-full text-[13px] font-black">Download Android App</a><a href="#contact" className="bg-white border border-black/10 px-6 py-3 rounded-full text-[13px] font-bold">Contact Team</a></div></div>
       </section>
 
       <footer className="bg-[#0A1931] text-white py-10 px-6 border-t border-white/10">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-2 text-[11px] text-white/50">
-          <span>© 2026 RapidFundi by Lantei • A product of Lantei • All payments secured under Lantei</span>
-          <span>LANTEI SUPPLIES • +254 722 819 877 • Archives, CBD • Currently Live: Nairobi CBD</span>
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row justify-between gap-4 text-[11px] text-white/60">
+            <div className="space-y-1">
+              <div className="font-black text-white text-[12px]">© 2026 RapidFundi by Lantei • A product of Lantei</div>
+              <div>Peter: +254 722 139 333 • Jim: +254 743 525 184 • Main: +254 722 819 877</div>
+            </div>
+            <div className="space-y-1 md:text-right">
+              <div>M-Pesa Till: LANTEI • Email: rapidfundi@outlook.com</div>
+              <div>Archives, CBD • Currently Live: Nairobi CBD • 8AM-7PM</div>
+            </div>
+          </div>
         </div>
       </footer>
-            {/* FLOATING WHATSAPP - RapidFundi by Lantei */}
+
       <a
         href="https://wa.me/254722819877?text=Hi%20RapidFundi%20%F0%9F%91%8B%20I%20need%20a%20plumber%20in%20CBD"
         target="_blank"
