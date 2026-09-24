@@ -168,7 +168,7 @@ export default function Home() {
       </footer>
             {/* FLOATING WHATSAPP - RapidFundi by Lantei */}
       <a
-        href="https://wa.me/254722819877?text=Hi%20RapidFundi%20by%20Lantei%20%F0%9F%91%8B%20I%20need%20a%20plumber%20in%20CBD"
+        href="https://wa.me/254722819877?text=Hi%20RapidFundi%20%F0%9F%91%8B%20I%20need%20a%20plumber%20in%20CBD"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-[999] group"
