@@ -232,11 +232,9 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between gap-4 text-[11px] text-white/60">
             <div className="space-y-1">
-              <div className="font-black text-white text-[12px]">© 2026 RapidFundi by Lantei • A product of Lantei</div>
-              <div>Peter: +254 722 139 333 • Jim: +254 743 525 184 • Main: +254 722 819 877</div>
+              <div className="font-black text-white text-[12px]">© 2026 RapidFundi by Lantei Supplies• A product of Lantei</div>
             </div>
             <div className="space-y-1 md:text-right">
-              <div>M-Pesa Till: LANTEI • Email: rapidfundi@outlook.com</div>
               <div>Archives, CBD • Currently Live: Nairobi CBD • 8AM-7PM</div>
             </div>
           </div>
