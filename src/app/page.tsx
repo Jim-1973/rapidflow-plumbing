@@ -32,9 +32,9 @@ export default function Home() {
         <div className="hidden md:block border-t border-black/[0.04] bg-[#FCFBF8]/50">
           <div className="max-w-7xl mx-auto px-6 h-[44px] flex items-center justify-end">
             <div className="flex items-center gap-8 text-[13.5px] font-bold text-[#0A3D7A] tracking-[-0.01em]">
-              <a href="#services" className="hover:text-[#0A66FF] transition">Services</a>
-              <a href="#cbd-zones" className="hover:text-[#0A66FF] transition">Coverage</a>
-              <a href="#about" className="hover:text-[#0A66FF] transition">About</a>
+              <a href="services" className="hover:text-[#0A66FF] transition">Services</a>
+              <a href="cbd-zones" className="hover:text-[#0A66FF] transition">Coverage</a>
+              <a href="about" className="hover:text-[#0A66FF] transition">About</a>
               <a href="#waitlist" className="hover:text-[#0A66FF] transition">Waitlist</a>
             </div>
           </div>
@@ -129,12 +129,75 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about" className="bg-white py-20 px-6 border-t border-black/[0.04]">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-[1.1fr_0.9fr] gap-12 items-start">
-          <div><div className="inline-flex bg-[#0A1931] text-white px-3 py-1 rounded-full text-[10px] font-black tracking-[0.2em]">ABOUT RAPIDFUNDI</div><h2 className="mt-4 text-[32px] md:text-[42px] font-black leading-[0.95] text-[#0A1931]">Built for CBD shops where every minute closed costs money.</h2><p className="mt-6 text-[15px] leading-7 text-[#475569]">We are a small team of NITA-licensed plumbers. We used to travel from Eastlands to CBD for jobs and lost hours in traffic. Now we base inside CBD — 8am to 7pm — and walk to jobs.</p><p className="mt-4 text-[15px] leading-7 text-[#475569]">No advance payment. You get a price in the app before work starts, we send before/after photos, you approve, then you pay via M-Pesa.</p></div>
-          <div className="bg-[#F8FAFC] border border-black/5 rounded-[24px] p-3"><div className="bg-white rounded-[16px] border border-black/5 p-5"><div className="flex items-center gap-3"><img src="https://i.pravatar.cc/100?img=33" className="w-12 h-12 rounded-full" alt="founder" /><div><div className="font-black text-[14px] text-[#0A1931]">James M. — Lead Fundi, CBD</div><div className="text-[11px] text-[#64748B]">NITA Licensed • Based near Archives</div></div></div><div className="mt-4 text-[13px] italic border-l-2 border-[#FFC83D] pl-4 text-[#334155] leading-6">"Shops in CBD can't wait 2 hours. If your sink leaks at 10am, you lose customers. That's why we stay in CBD. You call, we walk."</div></div><div className="mt-3 bg-[#0A1931] rounded-[16px] p-4 flex justify-between items-center text-white"><div className="text-[12px] font-bold">Need help in CBD now?</div><a href="tel:0712345678" className="bg-[#FFC83D] text-[#0A1931] px-4 py-2 rounded-full text-[11px] font-black">Call 0712 345 678</a></div></div>
+      {/* ABOUT - PROFESSIONAL */}
+<section id="about" className="bg-white py-24 px-6 border-t border-black/[0.04]">
+  <div className="max-w-7xl mx-auto">
+    <div className="grid md:grid-cols-[0.9fr_1.1fr] gap-16 items-start">
+
+      <div>
+        <div className="inline-flex bg-[#0A1931] text-white px-3.5 py-1.5 rounded-full text-[10px] font-black tracking-[0.2em]">ABOUT RAPIDFUNDI</div>
+        <h2 className="mt-5 text-[36px] md:text-[46px] font-black leading-[0.92] tracking-[-0.02em] text-[#0A1931]">
+          Professional plumbing for Nairobi's commercial core.
+        </h2>
+
+        <div className="mt-8 space-y-6">
+          <div className="flex gap-4">
+            <div className="w-10 h-10 rounded-full bg-[#F8FAFC] border border-black/5 flex items-center justify-center flex-shrink-0">🛡️</div>
+            <div>
+              <div className="font-black text-[14px] text-[#0A1931]">NITA Licensed & Council Compliant</div>
+              <div className="text-[13px] text-[#64748B] leading-6 mt-1">Every fundi is NITA-certified and vetted for work inside commercial buildings. We issue proper invoices and comply with Nairobi County by-laws for CBD operations.</div>
+            </div>
+          </div>
+          <div className="flex gap-4">
+            <div className="w-10 h-10 rounded-full bg-[#F8FAFC] border border-black/5 flex items-center justify-center flex-shrink-0">⚡</div>
+            <div>
+              <div className="font-black text-[14px] text-[#0A1931]">Built for 30-Minute Response</div>
+              <div className="text-[13px] text-[#64748B] leading-6 mt-1">We station our team inside the CBD grid — not outside it. Our fundis walk to your shop or office on Moi, Kimathi, Tom Mboya and Kenyatta Ave. No matatu delays.</div>
+            </div>
+          </div>
+          <div className="flex gap-4">
+            <div className="w-10 h-10 rounded-full bg-[#F8FAFC] border border-black/5 flex items-center justify-center flex-shrink-0">📸</div>
+            <div>
+              <div className="font-black text-[14px] text-[#0A1931]">Upfront Pricing & Photo Proof</div>
+              <div className="text-[13px] text-[#64748B] leading-6 mt-1">You receive a fixed quote in the app before work starts. We share before/after photos for verification. You approve, then pay via M-Pesa — no hidden fees.</div>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
+
+      <div>
+        <div className="bg-[#0A1931] rounded-[28px] p-8 text-white relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-[#0A66FF]/20 rounded-full blur-[60px]"></div>
+          <div className="relative">
+            <h3 className="text-[22px] font-black leading-[1.1]">Why we started in CBD</h3>
+            <p className="mt-4 text-[14px] leading-7 text-white/70">
+              80% of plumbing emergencies in Nairobi CBD cause businesses to shut down for half a day waiting for a fundi coming from Eastlands or South B.
+              <br/><br/>
+              RapidFundi solves this by operating like an in-building maintenance team, but on-demand. We are based at Archives, available 8AM-7PM, and currently live in 6 CBD corridors. Other estates — Westlands, Upperhill, Kilimani — are launching soon.
+            </p>
+            <div className="mt-8 grid grid-cols-3 border-t border-white/10 pt-6">
+              <div><div className="text-[24px] font-black">40+</div><div className="text-[11px] text-white/50 mt-1 uppercase tracking-wide">CBD jobs</div></div>
+              <div><div className="text-[24px] font-black">28 min</div><div className="text-[11px] text-white/50 mt-1 uppercase tracking-wide">Avg response</div></div>
+              <div><div className="text-[24px] font-black">4.8/5</div><div className="text-[11px] text-white/50 mt-1 uppercase tracking-wide">Client rating</div></div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-4 bg-[#FCFBF8] border border-black/5 rounded-[20px] p-5 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <img src="https://i.pravatar.cc/100?img=33" className="w-11 h-11 rounded-full border border-black/5" alt="founder" />
+            <div>
+              <div className="font-black text-[13px] text-[#0A1931]">RapidFundi Operations</div>
+              <div className="text-[11px] text-[#64748B]">Nairobi CBD • 0712 345 678</div>
+            </div>
+          </div>
+          <a href="tel:0712345678" className="bg-[#FFC83D] text-[#0A1931] px-5 py-2.5 rounded-full text-[12px] font-black">Call Now</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       <section id="download" className="bg-[#FCFBF8] py-16 px-6">
         <div className="max-w-7xl mx-auto bg-white border border-black/[0.06] rounded-[28px] p-8 md:p-10 flex flex-col md:flex-row justify-between gap-6 items-center"><div><h2 className="text-[26px] font-black text-[#0A1931]">RapidFundi for CBD offices & shops</h2><p className="mt-2 text-[13px] text-[#64748B] max-w-[420px]">Book in 30 seconds, track fundi en route, get photo proof before M-Pesa. Currently Nairobi CBD only.</p></div><div className="flex gap-3"><a href="#" className="bg-[#0A1931] text-white px-6 py-3 rounded-full text-[13px] font-black">Download Android App</a><a href="#waitlist" className="bg-white border border-black/10 px-6 py-3 rounded-full text-[13px] font-bold">Join Waitlist</a></div></div>
